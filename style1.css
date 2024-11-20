@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: poppins;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+#intro{
+    font-family: Bebas Neue;
+}
+
+#intro, #statistics, #impact {
+    margin-bottom: 30px;
+    
+}
+
+#statistics, #impact {
+    background-color: #f1f1f1; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2c3e50; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.animated {
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease forwards;
+}
+
+.slide-up {
+    animation: slideUp 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btn{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white ;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid #00a0df;
+    background-color: #00a0df;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+</head>
+<body>
+    <section class="header">
+        <nav class="nav">
+            <a href="main_page.html"><img src="images/logo1.png"></a>
+            
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle-o" onclick="closemenu()"></i>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="#">Basic Details</Details></a></li>
+                    
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="textbox">
+            <h1>Water Quality </h1>
+            <p>"Thousands have lived without love, not one without water." - W. H. Auden </p>
+            <a class="btn" href="#">Admin Area </a><br><br>
+            <a class="btn" href="#">Public Area</a>
+            
+        </div>
+    </section>
+    
+<script>
+    var navlinks= document.getElementById("navlinks")
+    function openmenu(){
+        navlinks.style.right= "0px";
+    }
+    function closemenu(){
+        navlinks.style.right= "-200px";
+    }
+</script>
+    
+</body>
+</html>
